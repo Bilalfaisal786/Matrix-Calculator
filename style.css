@@ -108,3 +108,16 @@ select option {
     background-color: #ecf0f1;
     color: #3498db;
 }
+/* Media query for smaller screens */
+@media screen and (max-width: 425px) {
+    .input {
+        flex-direction: column;
+    }
+
+    .matrix1,
+    .matrix2,
+    .matrix3 {
+        width: 100%;
+        max-width: 200px; /* Adjust the max-width as needed */
+    }
+}
